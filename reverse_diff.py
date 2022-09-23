@@ -7,11 +7,9 @@ while a > 0:
     a = a // 10
 print (mas)
 
-
 for i in range (len(mas)):
     strr = strr + str(mas[i])
 
 reversd = int(strr)
 result = abs(reversd - chislo)
-
 print (result)
