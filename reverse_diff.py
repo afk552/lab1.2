@@ -1,7 +1,7 @@
 while True:
     try:
         chislo = (input("Type a number: "))
-        if (chislo.isdigit() == True):
+        if (chislo.isdigit() == True and chislo[0]!="0"):
             a = int(chislo)
         mas = []
         strr = ''
